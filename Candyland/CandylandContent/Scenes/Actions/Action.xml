@@ -1,0 +1,306 @@
+<?xml version="1.0"?>
+<levels>
+
+  <L0.Tutorial>
+    <level_inner>       
+      <action>
+        <action_inner>
+          <trigger>0.Tutorial.1.dyn</trigger>
+          <triggered>0.Tutorial.1.actionActor</triggered>
+          <id>firstTutorial</id>
+          <oneTimeAction>true</oneTimeAction>
+          <subactions>
+            <subaction type="appear" goalX="8" goalY="0.5" goalZ="6.5" locks="false" text=""/>
+            <subaction type="movement" goalX="8" goalY="0.7" goalZ="6.5" locks="false" text=""/>
+            <subaction type="movement" goalX="8" goalY="0.4" goalZ="6.5" locks="true" text=""/>
+            <subaction type="movement" goalX="8" goalY="0.7" goalZ="6.5" locks="true" text=""/>
+            <subaction type="movement" goalX="8" goalY="0.4" goalZ="6.5" locks="true" text=""/>
+            
+            <subaction type="dialog" goalX="8" goalY="0.5" goalZ="6.5" locks="true" text="Hi! !nl! !nl!(Dr!ue!ck Enter, um weiterzulesen.) !ns!Willkommen in Candyland. Geht es dir gut? !nl!Oft sind die Leute verwirrt, wenn sie hier ankommen... Folg erst einmal einfach diesem Weg hier, er wird dich deinem Ziel n!ae!her bringen. !ns!(Nutze W, A, S und D, um dich zu bewegen und Leertaste, um zu springen. Mit der Maus kann die Kamera gedreht werden.)"/>
+            
+            <subaction type="disappear" goalX="8" goalY="0.5" goalZ="6.5" locks="false" text=""/>
+          </subactions>
+        </action_inner>
+      </action>
+      <action>
+        <action_inner>
+          <trigger>0.Tutorial.3.dyn</trigger>
+          <triggered>0.Tutorial.2.actionActor</triggered>
+          <id>tutorialAction2</id>
+          <oneTimeAction>true</oneTimeAction>
+          <subactions>
+            <subaction type="appear" goalX="8" goalY="0.5" goalZ="6.5" locks="false" text=""/>
+            <subaction type="movement" goalX="18.5" goalY="0.7" goalZ="19.5" locks="false" text=""/>
+            <subaction type="movement" goalX="18.5" goalY="0.4" goalZ="19.5" locks="true" text=""/>
+            <subaction type="movement" goalX="18.5" goalY="0.7" goalZ="19.5" locks="true" text=""/>
+            <subaction type="movement" goalX="18.5" goalY="0.4" goalZ="19.5" locks="true" text=""/>
+
+            <subaction type="dialog" goalX="8" goalY="0.5" goalZ="6.5" locks="true" text="Das da vorne sind Schokolinsen. Sammel m!oe!glichst viele von ihnen, um sie irgendwann gegen besondere Dinge einzutauschen. !nl!Ich merke mir, welche der Linsen du schon gesammelt hast. Du kannst eine einmal eingesammelte Schokolinse also nicht wieder verlieren. !ns!(Die Linsen-Anzeige oben links zeigt, wie viele Linsen es im ganzen Spiel gibt und wie viele von ihnen bereits gefunden wurden.)"/>
+            
+            <subaction type="disappear" goalX="8" goalY="0.5" goalZ="6.5" locks="false" text=""/>
+          </subactions>
+        </action_inner>
+      </action>
+	</level_inner>
+  </L0.Tutorial>
+  
+  <L0.Korridor>
+    <level_inner>       
+      <action>
+        <action_inner>
+          <trigger>0.Korridor.3.dyn</trigger>
+          <triggered>0.Korridor.1.actionActor</triggered>
+          <id>korridor1Action</id>
+          <oneTimeAction>true</oneTimeAction>
+          <subactions>
+            <subaction type="appear" goalX="8" goalY="0.5" goalZ="6.5" locks="false" text=""/>
+            <subaction type="movement" goalX="12.5" goalY="0.7" goalZ="8" locks="false" text=""/>
+            <subaction type="movement" goalX="12.5" goalY="0.4" goalZ="8" locks="true" text=""/>
+            <subaction type="movement" goalX="12.5" goalY="0.7" goalZ="8" locks="true" text=""/>
+            <subaction type="movement" goalX="12.5" goalY="0.4" goalZ="8" locks="true" text=""/>
+            
+            <subaction type="movement" goalX="12.5" goalY="0.4" goalZ="6" locks="true" text=""/>
+            <subaction type="dialog" goalX="8" goalY="0.5" goalZ="6.5" locks="true" text="Das hier ist ein H!ae!ndler. !nl!Sprich ihn an, um zu sehen, was er f!ue!r dich tun kann. !ns!(NPCs k!oe!nnen mit der Leertaste angesprochen werden, wenn man vor ihnen steht.) !ns!(Bei jedem H!ae!ndler gibt es Spezialwaren, die nur er anbietet. Also wirf immer auch einen Blick auf die Angebote.)"/>
+
+            <subaction type="disappear" goalX="8" goalY="0.5" goalZ="6.5" locks="false" text=""/>
+          </subactions>
+        </action_inner>
+      </action>
+      <action>
+        <action_inner>
+          <trigger>0.Korridor.2.dyn</trigger>
+          <triggered>0.Korridor.2.actionActor</triggered>
+          <id>korridor1Action2</id>
+          <oneTimeAction>true</oneTimeAction>
+          <subactions>
+            <subaction type="appear" goalX="8" goalY="0.5" goalZ="6.5" locks="false" text=""/>
+            <subaction type="movement" goalX="19.5" goalY="0.7" goalZ="8" locks="false" text=""/>
+            <subaction type="movement" goalX="19.5" goalY="0.4" goalZ="8" locks="true" text=""/>
+            <subaction type="movement" goalX="19.5" goalY="0.7" goalZ="8" locks="true" text=""/>
+            <subaction type="movement" goalX="19.5" goalY="0.4" goalZ="8" locks="true" text=""/>
+
+            <subaction type="dialog" goalX="8" goalY="0.5" goalZ="6.5" locks="true" text="Mach dir keine Sorgen, falls du unterwegs Schokolinsen vergisst oder nicht erreichen kannst. !nl!Komm einfach sp!ae!ter zur!ue!ck. !ns!(H!ae!ndler k!oe!nnen den Spieler zu allen bereits besuchten H!ae!ndlern teleportieren.)"/>
+
+            <subaction type="disappear" goalX="8" goalY="0.5" goalZ="6.5" locks="false" text=""/>
+          </subactions>
+        </action_inner>
+      </action>
+	</level_inner>
+  </L0.Korridor>
+
+  <L0.S0>
+    <level_inner>       
+      <action>
+        <action_inner>
+          <trigger>0.S0.3.dyn</trigger>
+          <triggered>0.S0.1.actionActor</triggered>
+          <id>S01Action</id>
+          <oneTimeAction>true</oneTimeAction>
+          <subactions>
+            <subaction type="appear" goalX="8" goalY="0.5" goalZ="6.5" locks="false" text=""/>
+            <subaction type="movement" goalX="10.5" goalY="0.7" goalZ="15" locks="false" text=""/>
+            <subaction type="movement" goalX="10.5" goalY="0.4" goalZ="15" locks="true" text=""/>
+            <subaction type="movement" goalX="10.5" goalY="0.7" goalZ="15" locks="true" text=""/>
+            <subaction type="movement" goalX="10.5" goalY="0.4" goalZ="15" locks="true" text=""/>
+
+            <subaction type="dialog" goalX="8" goalY="0.5" goalZ="6.5" locks="true" text="Solche Zuckerw!ue!rfel wie den da dr!ue!ben kannst du verschieben. Versuch es doch mal. !nl!Und hab keine Angst, falls du mal einen Fehler machst. Ich kann den Ursprungszustand der Umgebung wiederherstellen, wenn du das m!oe!chstest. !ns!(Mit R kann ein Reset ausgel!oe!st werden. Dabei werden alle Objekte zur!ue!ckgesetzt. Bereits eingesammelte Schokolinsen gehen aber nicht verloren. !ns!Das da vorn ist !ue!brigens eine Bonbonfee, die dir gern Tipps gibt.)"/>
+
+            <subaction type="disappear" goalX="8" goalY="0.5" goalZ="6.5" locks="false" text=""/>
+          </subactions>
+        </action_inner>
+      </action>
+	  </level_inner>
+  </L0.S0>
+
+  <Lschieb.0>
+    <level_inner>
+      <action>
+        <action_inner>
+          <trigger>schieb.0.7.dyn</trigger>
+          <triggered>schieb.0.1.actionActor</triggered>
+          <id>schieb0Action</id>
+          <oneTimeAction>true</oneTimeAction>
+          <subactions>
+            <subaction type="appear" goalX="10" goalY="0" goalZ="0.5" locks="false" text=""/>
+            <subaction type="movement" goalX="4.5" goalY="0.7" goalZ="15.5" locks="false" text=""/>
+            <subaction type="movement" goalX="4.5" goalY="0.4" goalZ="15.5" locks="true" text=""/>
+            <subaction type="movement" goalX="4.5" goalY="0.7" goalZ="15.5" locks="true" text=""/>
+            <subaction type="movement" goalX="4.5" goalY="0.4" goalZ="15.5" locks="true" text=""/>
+
+            <subaction type="dialog" goalX="10" goalY="0" goalZ="0.5" locks="true" text="Siehst du die hellen Plattformen da vorn? !nl!Das sind Schalter. Wenn du sie betrittst, werden sie aktiviert und lassen andere S!ue!!ss!igkeiten auftauchen oder verschwinden. !nl!Du solltest immer alle ausprobieren, die du findest. Es kann sich lohnen."/>
+
+            <subaction type="disappear" goalX="10" goalY="0" goalZ="0.5" locks="false" text=""/>
+          </subactions>
+        </action_inner>
+      </action>
+    </level_inner>
+  </Lschieb.0>
+
+  <Lschieb.4>
+    <level_inner>
+      <action>
+        <action_inner>
+          <trigger>schieb.4.1.dyn</trigger>
+          <triggered>schieb.4.1.actionActor</triggered>
+          <id>schieb4Action</id>
+          <oneTimeAction>true</oneTimeAction>
+          <subactions>
+            <subaction type="appear" goalX="10" goalY="0" goalZ="0.5" locks="false" text=""/>
+            <subaction type="movement" goalX="2" goalY="0.7" goalZ="15" locks="false" text=""/>
+            <subaction type="movement" goalX="2" goalY="0.4" goalZ="15" locks="true" text=""/>
+            <subaction type="movement" goalX="2" goalY="0.7" goalZ="15" locks="true" text=""/>
+            <subaction type="movement" goalX="2" goalY="0.4" goalZ="15" locks="true" text=""/>
+
+            <subaction type="dialog" goalX="10" goalY="0" goalZ="0.5" locks="true" text="Pass auf das blaue Wassereis auf. Du kannst zwar darauf laufen, Zuckerw!ue!rfel rutschen aber."/>
+
+            <subaction type="disappear" goalX="10" goalY="0" goalZ="0.5" locks="false" text=""/>
+          </subactions>
+        </action_inner>
+      </action>
+    </level_inner>
+  </Lschieb.4>
+  
+  <L5.0>
+    <level_inner>
+      <action>
+        <action_inner>
+          <trigger>5.0.1.dyn</trigger>
+          <triggered>5.0.1.helperActor</triggered>
+          <id>GetHelper</id>
+          <oneTimeAction>true</oneTimeAction>
+          <subactions>
+            <subaction type="appear" goalX="8" goalY="0.5" goalZ="6.5" locks="false" text=""/>
+            <subaction type="movement" goalX="7" goalY="0.21329" goalZ="0.5" locks="false" text=""/>
+            <subaction type="movement" goalX="7" goalY="0.21329" goalZ="1" locks="false" text=""/>
+            <subaction type="movement" goalX="7" goalY="0.21329" goalZ="1.5" locks="true" text=""/>
+            <subaction type="movement" goalX="7" goalY="0.21329" goalZ="1" locks="true" text=""/>
+
+            <subaction type="dialog" goalX="8" goalY="0.5" goalZ="6.5" locks="true" text="Hi! Sag mal... kannst du mir helfen? !nl!Ich wurde von meiner Freundin der Fee hier dr!ue!ben hergebracht. Aber jetzt hat sie keine Kraft mehr, mich auch wieder zur!ue!ckzubringen und ich h!ae!nge hier fest. Springen kann ich n!ae!mlich nicht. Daf!ue!r aber solche Bl!oe!cke wie den hier vorne zerst!oe!ren! Ich glaube, oben steht irgendwo ein Zuckerw!ue!rfel, mit dem du das Loch hier zumachen kannst, damit ich vorbeikomme..."/>
+            <subaction type="dialog" goalX="8" goalY="0.5" goalZ="6.5" locks="true" text="(Von jetzt an kann mit der Taste C zwischen dem Helden und seinem neuen Begleiter gewechselt werden. Mit Leertaste kann der Begleiter einen br!ue!chigen Zuckerw!ue!rfel zerst!oe!ren, wenn er direkt vor ihm steht.) !ns!(Bonbonfeen in rot k!oe!nnen den Begleiter holen, wenn sie vom Helden angesprochen werden.)"/>
+            
+            <subaction type="disappear" goalX="8" goalY="0.5" goalZ="6.5" locks="false" text=""/>
+          </subactions>
+        </action_inner>
+      </action>
+    </level_inner>
+  </L5.0>
+  
+  <L5.3>
+    <level_inner>
+      <action>
+        <action_inner>
+          <trigger>5.3.5.dyn</trigger>
+          <triggered>5.3.1.actionActor</triggered>
+          <id>5.3.5Action</id>
+          <oneTimeAction>true</oneTimeAction>
+          <subactions>
+            <subaction type="appear" goalX="8" goalY="0.5" goalZ="6.5" locks="false" text=""/>
+            <subaction type="movement" goalX="15.5" goalY="4.7" goalZ="4.5" locks="false" text=""/>
+            <subaction type="movement" goalX="15.5" goalY="4.4" goalZ="4.5" locks="true" text=""/>
+            <subaction type="movement" goalX="15.5" goalY="4.7" goalZ="4.5" locks="true" text=""/>
+            <subaction type="movement" goalX="15.5" goalY="4.4" goalZ="4.5" locks="true" text=""/>
+
+            <subaction type="dialog" goalX="8" goalY="0.5" goalZ="6.5" locks="true" text="Die Kekse, die du hier siehst, sind alt. Wenn du sie betrittst, zerbrechen sie nach einer Weile. !nl!Beeil dich also und !ue!berleg gut, welchen Weg du nehmen willst."/>
+
+            <subaction type="disappear" goalX="8" goalY="0.5" goalZ="6.5" locks="false" text=""/>
+          </subactions>
+        </action_inner>
+      </action>
+    </level_inner>
+  </L5.3>
+
+  <Lchase.0>
+    <level_inner>
+      <action>
+        <action_inner>
+          <trigger>chase.0.9.dyn</trigger>
+          <triggered>chase.0.1.helperActor</triggered>
+          <id>LoseHelper</id>
+          <oneTimeAction>true</oneTimeAction>
+          <subactions>
+            <subaction type="appear" goalX="8" goalY="0.5" goalZ="6.5" locks="false" text=""/>
+            <subaction type="movement" goalX="7.5" goalY="0.21329" goalZ="2.6" locks="false" text=""/>
+            <subaction type="movement" goalX="8.5" goalY="0.21329" goalZ="2.5" locks="false" text=""/>
+            
+            <subaction type="dialog" goalX="8" goalY="0.5" goalZ="6.5" locks="true" text="... da komme ich nicht r!ue!ber. Es sieht ganz so aus, als ob du von hier aus alleine weiter musst. !ns!Ich werde mich von der Fee hier zu den Zuckerf!ae!llen bringen lassen. Ich habe geh!oe!rt, dass es da Probleme gibt. Vielleicht kann ich helfen. !ns!Viel Erfolg! !nl!Ich hoffe, wir sehen uns bald wieder."/>
+            <subaction type="disappear" goalX="8" goalY="0.5" goalZ="6.5" locks="false" text=""/>
+            
+          </subactions>
+        </action_inner>
+      </action>
+      <action>
+        <action_inner>
+          <trigger>chase.0.10.dyn</trigger>
+          <triggered>chase.0.1.bossActor</triggered>
+          <id>StartChase</id>
+          <oneTimeAction>false</oneTimeAction>
+          <subactions>
+            <subaction type="dialog" goalX="8" goalY="0.5" goalZ="6.5" locks="true" text="Was?! Wo kommst du denn her? Denk nicht mal daran, mich aufzuhalten, du hast keine Chance! !ns!(Ziel ist nun, die Lakritze nicht entkommen zu lassen. Daf!ue!r l!ae!uft der Spieler von selbst, muss aber an den verschiedenen Hindernissen vorbeikommen. Mit S kann angehalten werden, umkehren ist aber nicht m!oe!glich. !nl!Die neue Anzeige gibt an, wie gro!ss! die Entfernung zur Lakritze ist. Wird der Abstand zu gro!ss! oder st!ue!rzt der Spieler ab, muss die Verfolgungsjagd neu begonnen werden.)"/>
+            
+            <subaction type="movement" goalX="6.5" goalY="2" goalZ="19.5" locks="false" text=""/>
+            <subaction type="movement" goalX="13.5" goalY="2" goalZ="257.5" locks="false" text=""/>
+
+            <subaction type="dialog" goalX="8" goalY="0.5" goalZ="6.5" locks="true" text="Hahaha, zu langsam! Verfolg mich doch weiter, wenn du dich traust. Nur ein kleiner Sprung durch mein Portal und dein Ende erwartet dich!"/>
+
+            <subaction type="disappear" goalX="8" goalY="0.5" goalZ="6.5" locks="false" text=""/>
+          </subactions>
+        </action_inner>
+      </action>
+    </level_inner>
+  </Lchase.0>
+
+  <L255.0>
+    <level_inner>
+      <action>
+        <action_inner>
+          <trigger>255.0.0.dyn</trigger>
+          <triggered>255.0.1.bossActor</triggered>
+          <id>endstage1</id>
+          <oneTimeAction>false</oneTimeAction>
+          <subactions>
+            <subaction type="dialog" goalX="0" goalY="0" goalZ="10" locks="true" text=" Was!? !nl! Du hast es also geschafft, mich bis hierhin !nl! zu verfolgen? !ns! Freu dich nicht zu fr!ue!h, !nl! noch hast du mich nicht aufgehalten! !ns! Ich werde meine Lakritzmaschine nutzen, um dir den Rest zu geben. Hahaha!"/>
+            <subaction type="movement" goalX="20" goalY="7" goalZ="10" locks="false" text=""/>
+            <subaction type="disappear" goalX="20" goalY="7" goalZ="10" locks="false" text=""/>
+          </subactions>
+        </action_inner>
+      </action>
+
+    </level_inner>
+  </L255.0>
+
+
+  <L255.2>
+    <level_inner>
+      <action>
+        <action_inner>
+          <trigger>255.2.4.dyn</trigger>
+          <triggered>255.2.1.bossActor</triggered>
+          <id>2finalstage</id>
+          <oneTimeAction>false</oneTimeAction>
+          <subactions>
+            <subaction type="dialog" goalX="2.5" goalY="0" goalZ="9" locks="true" text=" Nur noch ein kleines St!ue!ck und du kannst mir nichts mehr anhaben! !nl! Aber komm mir bloss nicht zu nahe!"/>
+            <subaction type="movement" goalX="5" goalY="16" goalZ="10" locks="false" text=""/>
+          </subactions>
+        </action_inner>
+      </action>
+
+      <action>
+        <action_inner>
+          <trigger>255.2.10.dyn</trigger>
+          <triggered>255.2.2.actionActor</triggered>
+          <id>ending</id>
+          <oneTimeAction>true</oneTimeAction>
+          <subactions>
+            <subaction type="dialog" goalX="2.5" goalY="0" goalZ="9" locks="true" text=" Du warst schneller, die Maschine ist zerst!oe!rt!"/>
+            <subaction type="disappear" goalX="2.5" goalY="0" goalZ="9" locks="false" text=""/>
+          </subactions>
+        </action_inner>
+      </action>
+      
+
+    </level_inner>
+  </L255.2>
+
+ 
+  
+</levels>
